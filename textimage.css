@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.image-text{
+    display: flex;
+    padding: 30px 140px;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+   display: flex; 
+   flex-direction: column;
+   justify-content: center;
+   gap: 110px;
+}
+.h1pb{
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+.h1pb h1{
+    font-weight:bolder;
+    font-size: 75px;
+    width: 57%;
+}
+.h1pb p{
+    color:hsl(0, 0%, 41%)  ;
+    width: 51%;
+    font-size: 20px;
+}
+.h1pb button{
+    width: 20%;
+    color: white;
+    background-color: black;
+    padding: 10px 10px;
+    border-radius: 9px;
+     display: flex;
+     justify-content: center;
+}
+.h1pb button p{
+    font-size: 10px;
+    color: white;
+    
+}
+.logos{
+    display: flex;
+    gap: 30px;
+
+}
+.logos img{
+    height: 3vh;
+}
+.image{
+    /* height: 60vh; */
+    width: 25vw;
+}
+@media screen and (max-width:960px){
+    .image-text{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0px 0px;
+        align-items: center;
+        justify-content: center;
+    }
+    .logos{
+        display: flex;
+        gap: 20px;
+    }
+    .logos img{
+        height: 2vh;
+    }
+    .text{
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+      padding: 30px;
+     }
+     .h1pb{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        }
+        .h1pb h1{
+            font-weight:bolder;
+            font-size: 40px;
+            width:100%;
+        }
+        .h1pb p{
+            color:hsl(0, 0%, 41%)  ;
+            width:109%;
+            font-size: 20px;
+            font-weight: 900;
+            text-align: center;
+        }
+        .h1pb button{
+            width: 59%;
+            color: white;
+            background-color: black;
+            padding: 15px 20px;
+            border-radius: 20px;
+        }
+        .h1pb button p{
+            font-size:22px;
+            color: white;
+        }
+        .background{
+          background-image: url(images/image-hero-mobile.png);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size:cover;
+          height: 40vh;
+          width: 100%;
+        }
+        .image{
+            /* height: 60vh; */
+            width: 0vw;
+        }
+  
+}

@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+.fcca{
+    display: flex;
+    gap: 30px;
+}
+.fcca a{
+    text-decoration: none;
+    color:hsl(0, 0%, 41%) ;
+}
+.logo-fcca{
+    display: flex;
+    gap: 50px;
+}
+.login-button{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color:hsl(0, 0%, 41%);
+}
+.login-button button{
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 9px;
+    color:hsl(0, 0%, 41%);
+}
+@media screen and (max-width:960px){
+   .fcca{
+        display: none;
+        gap: 30px;
+    }
+    .login-button{
+        
+        display:none;
+        align-items: center;
+        gap: 40px;
+        color:hsl(0, 0%, 41%);
+    }
+    .menu-login-button{
+        background-image: url(images/icon-menu.svg);
+        width: 10%;
+        height: 3vh;
+        display: flex;
+        align-items: center;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 10px;
+        
+    }
+}
